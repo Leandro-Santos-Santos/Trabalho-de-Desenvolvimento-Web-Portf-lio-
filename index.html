@@ -10,13 +10,13 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-light">
   <!-- Cabeçalho -->
   <header class="container-fluid p-0">
     <section class="row">
       <div class="col-md-12">
         <!-- Barra de Navegação -->
-        <nav class="navbar navbar-dark bg-primary">
+        <nav class="navbar navbar-dark bg-dark shadow">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Portifólio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -30,7 +30,7 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Sobre</a>
+                  <a class="nav-link" href="#Sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Resumo</a>
@@ -60,25 +60,32 @@
         <p>Estudante Full Stack</p>
       </div>
       <div class="col-md-6">
-        <img src="img/Screenshot_20220205-192319_.jpg" alt="Imagem" class="img-fluid">
+        <img src="img/perfil.png" alt="Imagem" class="img-fluid mw-60 p-1 bg-danger bg-opacity-50">
       </div>
     </section>
 
     <section id="Sobre" class="row pt-5 pb-5 shadow">
-      <h2>Sobre min</h2>
-      <p>Estudante Desenvolvedor Front-End e Back-end, atualmente cursando Desenvolvedor Full
+      <h2 class="mb-5">Sobre min</h2>
+      <p class="mb-5">Estudante Desenvolvedor Front-End e Back-end, atualmente cursando Desenvolvedor Full
         Stack, na instituição Senac, com o apoio, da empresa SOUTH SYSTEM. </p>
       <p>Meu objetivo pessoal é migrar para área de tecnologia da informação, pois
         tenh caracteristicas para atuar nessa área.</p>
 
       <h3>Meu Conjunto de Habilidades</h3>
-      <div class="d-flex skillpoints">
-        <div class="H">HTML</div>
-        <div class="C">CSS</div>
-        <div class="J">JavaScript</div>
-        <div class="B">Bootstrap</div>
-        <div class="JV">JAVA</div>
-        <div class="P">Phython</div>
+      <div class="row align-items-center justify-content-center m-4">
+        <div class="col-2 H m-3 px-3 py-3 text-center">HTML</div>
+        <div class="col-2 C m-4">CSS</div>
+        <div class="col-2 J m-4">JavaScript</div>
+        <div class="col-2 B m-4">Bootstrap</div>
+        <div class="col-2 JV m-4">JAVA</div>
+        <div class="col-2 P m-4 m-3">Phython</div>
+
+        <!-- <div class="H m-4 mw-3">HTML</div>
+        <div class="C m-4">CSS</div>
+        <div class="J m-4">JavaScript</div>
+        <div class="B m-4">Bootstrap</div>
+        <div class="JV m-4">JAVA</div>
+        <div class="P m-4">Phython</div> -->
       </div>
     </section>
 
@@ -100,7 +107,7 @@
     </section>
 
 
-    <section id="Contato" class="row pt-5 pb-5 shadow">
+    <section id="contato" class="row pt-5 pb-5 shadow">
 
       <h2>Contato</h2>
 
