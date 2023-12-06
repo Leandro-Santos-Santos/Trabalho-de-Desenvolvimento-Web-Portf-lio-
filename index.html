@@ -40,10 +40,6 @@
                     <i class="bi bi-telephone-fill"></i>Contato</a>
                 </li>
               </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
             </div>
         </nav>
 
@@ -53,14 +49,14 @@
 
   <!-- Conteudo Principal -->
   <main class="container wrapper">
-    <section id="home" class="row pt-5 pb-5 shadow">
+    <section id="home" class="row pt-5 pb-5 mt-5 shadow">
       <div class="col-md-6 text-center mt-5">
         <p>Olá, eu sou</p>
         <h1>Leandro Santos</h1>
         <p>Estudante Full Stack</p>
       </div>
       <div class="col-md-6">
-        <img src="img/perfil.png" alt="Imagem" class="img-fluid mw-60 p-1 bg-danger bg-opacity-50">
+        <img src="img/perfil.png" alt="Imagem" class="img-fluid mw-60 p-1 bg-opacity-50">
       </div>
     </section>
 
@@ -107,54 +103,29 @@
     </section>
 
 
-    <section id="contato" class="row pt-5 pb-5 shadow">
+    <section id="contato" class="row pt-5 pb-5 mt-5 shadow">
 
       <h2>Contato</h2>
 
-      <form class="row g-3">
-        <div class="col-md-6">
-          <label for="inputEmail4" class="form-label">Email</label>
-          <input type="email" class="form-control" id="inputEmail4">
-        </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Password</label>
-          <input type="password" class="form-control" id="inputPassword4">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress" class="form-label">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        </div>
-        <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
-        <div class="col-md-6">
-          <label for="inputCity" class="form-label">City</label>
-          <input type="text" class="form-control" id="inputCity">
-        </div>
-        <div class="col-md-4">
-          <label for="inputState" class="form-label">State</label>
-          <select id="inputState" class="form-select">
-            <option selected>Choose...</option>
-            <option>...</option>
-          </select>
-        </div>
-        <div class="col-md-2">
-          <label for="inputZip" class="form-label">Zip</label>
-          <input type="text" class="form-control" id="inputZip">
-        </div>
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
-        </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-primary">Sign in</button>
-        </div>
-      </form>
+      <div class="mb-3 mt-5">
+        <label for="exampleFormControlInput1" class="form-label">Seu Nome</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Por favor digite seu nome">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Assunto</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Qual é o seu assunto">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
     </section>
 
 
