@@ -3,7 +3,7 @@
     width: auto;
 }
 
-/* 
+/*  antiga css
 .skillpoints{
     gap: 67px;
     display:flex;
@@ -13,8 +13,8 @@
 } */
 
 .H{
-    /* width: 130px;
-    height: 60px; */
+    width: 130px;
+    height: 60px;
     border-radius: 10px 2px;
     align-items: center;
     /* text-align: center; */
